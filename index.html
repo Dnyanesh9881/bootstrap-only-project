@@ -32,15 +32,15 @@
               <a
                 class="nav-link active text text-secondary"
                 aria-current="page"
-                href="#"
+                href="#about"
                 >About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">Portfolio</a>
+              <a class="nav-link active text-secondary" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">Contact</a>
+              <a class="nav-link active text-secondary" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -51,9 +51,10 @@
       <p>I showcasemy projects here and skills here.</p>
     </section>
     <section class="p-5">
-      <h1 class="text-center mb-3">About Me</h1>
+      <h1 class="text-center mb-3" id="about">About Me</h1>
       <div class="row">
-        <img class="col-12  col-md-6 "
+        <img
+          class="col-12 col-md-6"
           src="https://images.unsplash.com/photo-1514543250559-83867827ecce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGNvZGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
         />
         <p class="col-12 col-md-6 text-center text-md-start ps-4">
@@ -68,8 +69,8 @@
         </p>
       </div>
     </section>
-    <section class="row  bg-light m-auto">
-      <h1 class="text-center mb-3">Portfolio</h1>
+    <section class="row bg-light m-auto">
+      <h1 class="text-center mb-3" id="portfolio">Portfolio</h1>
       <div class="col-md-3 col-8 mt-3 m-auto card m-md-5 p-0">
         <img
           src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTMzfHxjb2RlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -116,10 +117,11 @@
         </div>
       </div>
     </section>
-    <section class=" d-flex flex-column  justify-content-center align-items-center">
-        <h1 class="m-5 text-center">Contact</h1>
-      <form class="mb-5 w-50 ">
-        
+    <section
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <h1 class="m-5 text-center" id="contact">Contact</h1>
+      <form class="mb-5 w-50">
         <label class="form-label" for="name">Name:</label>
         <input class="form-control" type="text" id="name" />
         <label class="form-label" for="email">Email:</label>
